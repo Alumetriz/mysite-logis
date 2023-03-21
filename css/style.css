@@ -75,9 +75,15 @@ body {
 }
 
 .header__nav-items a {
-    color: white;
+    color: rgba(255, 255, 255, 0.6);
+    transition: 0.3s;
 }
-
+.header__nav-items a:hover {
+    color: #fff;
+}
+.active a {
+    color: #fff;
+}
 .order-btn {
     background: #0d42ff;
     width: 120px;
@@ -178,6 +184,14 @@ body {
     text-align: center;
 }
 
+.about-info__list li {
+    cursor: pointer;
+    transition: 0.3s;
+}
+.about-info__list li:hover .about-list__content h4 {
+    color: #001f8d;
+}
+
 .about-list__icon {
     margin-bottom: 5px;
 }
@@ -245,6 +259,7 @@ body {
 }
 .about-us__wrapper {
     padding: 80px 0 0 0;
+    gap: 50px;
 }
 
 .about-us__list {
@@ -526,4 +541,4 @@ body {
     font-weight: 300;
     text-align: center;
 }
-/*footer start*/
+/*footer end*/
