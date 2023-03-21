@@ -1,0 +1,268 @@
+/*// variables start*/
+
+/*// variables end*/
+
+/*// common start*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/*common end*/
+
+/*header start*/
+.header {
+    padding: 30px 0;
+}
+.header-and-hero__wrapper {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0e1d34;
+    background-image: url("/source/images/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.bg-image {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.wrapper {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 64px;
+    height: 64px;
+}
+
+.header__logo svg {
+    fill: white;
+}
+
+.header__navigation-wrapper {
+    width: 600px;
+}
+
+.header__nav-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav-items a {
+    color: white;
+}
+
+.order-btn {
+    background: #0d42ff;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.order-btn a {
+    color: white;
+}
+
+/*header end*/
+
+/*hero start*/
+.hero__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0px 120px 0px;
+    align-items: center;
+}
+
+.hero-left__content {
+    width: 600px;
+}
+
+.hero-title {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.hero-text {
+    font-size: 15px;
+    margin-bottom: 60px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.hero-stats__block {
+    width: 600px;
+}
+
+.hero-stats__items {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.hero-stats__item {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.hero-stats__item span {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.hero-stats__item {
+    font-size: 15px;
+}
+
+.hero-stats__item span::after {
+    content: "";
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 20px;
+    height: 3px;
+    background: #0d42ff;
+}
+
+.hero-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 600px;
+}
+
+/*hero end*/
+
+/*about-section start*/
+
+.about-section {
+    padding: 80px 0;
+}
+.about-us__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.about-info__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-list__icon {
+    margin-bottom: 5px;
+}
+
+.about-list__icon svg {
+    width: 50px;
+    height: 50px;
+    fill: #0d42ff;
+}
+
+.about-list__content h4 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #132848;
+}
+
+.about-list__content p {
+    font-size: 15px;
+    color: #132848;
+}
+
+.about-list__content span {
+    display: inline-block;
+    margin-top: 15px;
+}
+.about-list__content span a {
+    color: black;
+}
+.about-list__content span::after {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("/source/images/icons/arrow-right-svgrepo-com.svg") no-repeat;
+    background-size: 15px;
+    margin-left: 5px;
+}
+
+/* ------------ */
+.about-us-title {
+    font-weight: 700;
+    font-size: 32px;
+    color: #001f8d;
+    margin-bottom: 10px;
+}
+.about-us-text {
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+.about-us__item-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #19335c;
+    margin-bottom: 10px;
+}
+.about-us__item-text {
+    font-size: 17px;
+    font-weight: 300;
+}
+.about-us__left-content {
+    width: 480px;
+}
+.about-us__wrapper {
+    padding: 80px 0 0 0;
+}
+
+.about-us__list {
+    margin-top: 30px;
+}
+.about-us__item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.about-us__item-icon {
+    width: 65px;
+    height: 65px;
+}
+
+.about-us__item:not(:last-child) {
+    margin-bottom: 30px;
+}
+.about-us__img {
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+}
+/*about-section end*/
