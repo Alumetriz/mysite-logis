@@ -24,7 +24,7 @@ body {
     width: 100%;
     min-height: 100vh;
     background-color: #0e1d34;
-    background-image: url("/source/images/hero-bg.png");
+    background-image: url("../source/images/hero-bg.png");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -248,7 +248,7 @@ body {
     display: inline-block;
     width: 15px;
     height: 15px;
-    background: url("/source/images/icons/arrow-right-svgrepo-com.svg") no-repeat;
+    background: url("../source/images/icons/arrow-right-svgrepo-com.svg") no-repeat;
     background-size: 15px;
     margin-left: 5px;
 }
@@ -458,7 +458,7 @@ body {
 }
 .low-cost__list li:nth-last-child(n+3) {
     padding-left: 2rem;
-    background-image: url("/source/images/icons/checkmark-svgrepo-com.svg");
+    background-image: url("../source/images/icons/checkmark-svgrepo-com.svg");
     background-position: 0 0;
     background-size: 25px 25px;
     background-repeat: no-repeat;
@@ -466,7 +466,7 @@ body {
 
 .low-cost__list li:nth-last-child(-n+2) {
     padding-left: 2rem;
-    background-image: url("/source/images/icons/icons8-close.svg");
+    background-image: url("../source/images/icons/icons8-close.svg");
     background-position: 0 0;
     background-size: 25px 20px;
     background-repeat: no-repeat;
@@ -477,14 +477,14 @@ body {
 }
 .medium-cost__list li:nth-last-child(n+2) {
     padding-left: 2rem;
-    background-image: url("/source/images/icons/checkmark-svgrepo-com.svg");
+    background-image: url("../source/images/icons/checkmark-svgrepo-com.svg");
     background-position: 0 0;
     background-size: 25px 25px;
     background-repeat: no-repeat;
 }
 .medium-cost__list li:nth-last-child(-n+1) {
     padding-left: 2rem;
-    background-image: url("/source/images/icons/icons8-close.svg");
+    background-image: url("../source/images/icons/icons8-close.svg");
     background-position: 0 0;
     background-size: 25px 20px;
     background-repeat: no-repeat;
@@ -495,7 +495,7 @@ body {
 }
 .luxury-cost__list li {
     padding-left: 2rem;
-    background-image: url("/source/images/icons/checkmark-svgrepo-com.svg");
+    background-image: url("../source/images/icons/checkmark-svgrepo-com.svg");
     background-position: 0 0;
     background-size: 25px 25px;
     background-repeat: no-repeat;
