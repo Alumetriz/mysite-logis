@@ -163,6 +163,7 @@ body {
         justify-content: center;
         align-items: center;
         flex-direction: column-reverse;
+        padding: 60px 0px 120px 0px;
     }
     .hero-stats__item {
         width: 300px;
