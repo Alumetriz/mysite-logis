@@ -427,11 +427,11 @@ body {
     max-width: 400px;
     width: 100%;
     max-height: 533px;
+    border-top: 5px solid transparent;
     transition: 0.2s ease-in-out;
 }
 .pricing-item:hover {
-    padding: 35px 40px;
-    border-top: 5px solid #001f8d;
+    border-color: #001f8d;
 }
 .pricing-item h3 {
     font-weight: 700;
