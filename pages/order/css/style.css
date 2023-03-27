@@ -1,0 +1,227 @@
+/*common start*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+/*common end*/
+
+/*header start*/
+.header {
+    padding: 30px 0;
+    z-index: 233;
+}
+.header-and-hero__wrapper {
+    width: 100%;
+    background: rgba(14, 29, 52, 1);
+    background-size: cover;
+    z-index: 3;
+}
+.wrapper {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 64px;
+    height: 64px;
+}
+
+.header__logo svg {
+    fill: white;
+}
+
+.header__navigation-wrapper {
+    width: 600px;
+}
+
+.header__nav-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header__nav-items a {
+    color: rgba(255, 255, 255, 0.6);
+    transition: 0.3s;
+}
+.header__nav-items a:hover {
+    color: #fff;
+}
+.active a {
+    color: #fff;
+}
+.order-btn {
+    background: #0d42ff;
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.order-btn a {
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+/*header end*/
+
+/*HERO START*/
+
+.hero {
+    padding: 80px 0;
+}
+.hero-title {
+    font-size: 56px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.hero-text {
+    font-size: 15px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+/*HERO START*/
+
+
+.order {
+    padding: 100px 0;
+}
+.order__wrapper {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.order__content-left {
+    width: 30%;
+    background: url("../../../source/images/quote-bg.jpg") center;
+    min-height: 500px;
+    background-size: cover;
+}
+.form-item {
+    width: 400px;
+}
+.form-item form {
+    display: flex;
+    flex-direction: column;
+}
+.form-title {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 0 20px 0;
+}
+.form-item form input:not(.terms),
+.form-item form textarea  {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: 15px 0 15px 0;
+    padding: 12px 15px;
+}
+.form-item form input .terms {
+    display: inline;
+}
+.form-btn {
+    margin-top: 20px;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+    background: #0e1d34;
+}
+
+
+/*footer start*/
+.footer {
+    padding: 50px 0;
+    background-color: #0e1d34;
+    color: #fff;
+}
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo-name {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.footer-logo-text {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 17px;
+    max-width: 350px;
+}
+.social__list {
+    display: flex;
+    gap: 20px;
+}
+.social__list li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    transition: 0.3s;
+}
+.social__list li:hover {
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+.useful-links-title,
+.contact-us-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+.useful-links__list a,
+.contact-us__list p {
+    display: block;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 300;
+}
+.contact-us__list span {
+    color: #fff;
+}
+.copyright {
+    margin-top: 30px;
+    font-weight: 300;
+    text-align: center;
+}
+/*footer end*/
