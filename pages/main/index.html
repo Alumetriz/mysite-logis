@@ -55,8 +55,31 @@
                             <li><a href="#footer-section">Contacts</a></li>
                         </ul>
                     </nav>
+                    <a href="../order/order.html">
+                        <button class="order-btn">
+                            Order delivery
+                        </button>
+                    </a>
                 </div>
-                <button class="order-btn"><a href="../order/order.html">Order delivery</a></button>
+                <div class="body-overlay"></div>
+                <div class="burger-menu">
+                    <div class="burger-menu-line"></div>
+                    <div class="burger-menu-line"></div>
+                    <div class="burger-menu-line"></div>
+                </div>
+
+                <nav class="menu">
+                    <ul>
+                        <li class="menu-item"><a href="#">Home</a></li>
+                        <li class="menu-item"><a href="#about-section">About</a></li>
+                        <li class="menu-item"><a href="#services-section">Services</a></li>
+                        <li class="menu-item"><a href="#pricing-section">Prices</a></li>
+                        <li class="menu-item"><a href="#footer-section">Contacts</a></li>
+                    </ul>
+                    <a href="../order/order.html" class="order-btn__burger-link">
+                        <button class="order-btn__burger">Order delivery</button>
+                    </a>
+                </nav>
             </div>
         </div>
     </header>
@@ -367,7 +390,7 @@
 <footer class="footer" id="footer-section">
     <div class="wrapper">
         <div class="footer__wrapper">
-            <div>
+            <div class="wrapper__first-content">
                 <h4 class="footer-logo-name">Logistic</h4>
                 <p class="footer-logo-text">The leader of the European market of express delivery company
                     "Logistic".</p>
@@ -403,24 +426,26 @@
                 </div>
             </div>
 
-            <div>
-                <h5 class="useful-links-title">Useful Links</h5>
-                <ul class="useful-links__list">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#about-section">About</a></li>
-                    <li><a href="#services-section">Services</a></li>
-                    <li><a href="#pricing-section">Prices</a></li>
-                    <li><a href="#footer-section">Contacts</a></li>
-                </ul>
-            </div>
+            <div class="wrapper__second-content">
+                <div>
+                    <h5 class="useful-links-title">Useful Links</h5>
+                    <ul class="useful-links__list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about-section">About</a></li>
+                        <li><a href="#services-section">Services</a></li>
+                        <li><a href="#pricing-section">Prices</a></li>
+                        <li><a href="#footer-section">Contacts</a></li>
+                    </ul>
+                </div>
 
-            <div>
-                <h5 class="contact-us-title">Contact Us</h5>
-                <ol class="contact-us__list">
-                    <li><p><span>address:</span> Krivoy Rog</p></li>
-                    <li><p><span>phone:</span> +380619191919</p></li>
-                    <li><p><span>email:</span> fanmax0808@gmail.com</p></li>
-                </ol>
+                <div>
+                    <h5 class="contact-us-title">Contact Us</h5>
+                    <ol class="contact-us__list">
+                        <li><p><span>address:</span> Krivoy Rog</p></li>
+                        <li><p><span>phone:</span> +380619191919</p></li>
+                        <li><p><span>email:</span> fanmax0808@gmail.com</p></li>
+                    </ol>
+                </div>
             </div>
         </div>
         <div class="copyright">
@@ -430,5 +455,7 @@
         </div>
     </div>
 </footer>
+
+<script src="script.js"></script>
 </body>
 </html>
