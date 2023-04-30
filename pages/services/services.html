@@ -5,7 +5,6 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
 
     <!--    fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,400&display=swap"
           rel="stylesheet">
     <!--    fonts-->
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Logistic</title>
 </head>
@@ -22,7 +22,7 @@
         <div class="wrapper">
             <div class="header__wrapper">
                 <div class="header__logo">
-                    <a href="#">
+                    <a href="../main/index.html">
                         <object>
                             <svg version="1.1" id="_x32_"
                                  xmlns="http://www.w3.org/2000/svg"
@@ -48,13 +48,20 @@
                 <div class="header__navigation-wrapper">
                     <nav class="header__nav">
                         <ul class="header__nav-items">
-                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="../main/index.html">Home</a></li>
                             <li><a href="../about/index.html">About</a></li>
-                            <li><a href="../services/services.html">Services</a></li>
-                            <li><a href="../prices/prices.html">Prices</a></li>
-                            <li><a href="../contacts/contacts.html">Contacts</a></li>
+                            <li class="active"><a href="#services-section">Services</a></li>
+                            <li><a href="../main/index.html#pricing-section">Prices</a></li>
+                            <li><a href="#footer-section">Contacts</a></li>
                         </ul>
                     </nav>
+                </div>
+                <div>
+                    <a href="../login/login.html">
+                        <button class="order-btn">
+                            Login
+                        </button>
+                    </a>
                     <a href="../order/order.html">
                         <button class="order-btn">
                             Order delivery
@@ -62,6 +69,7 @@
                     </a>
                 </div>
                 <div class="body-overlay"></div>
+
                 <div class="burger-menu">
                     <div class="burger-menu-line"></div>
                     <div class="burger-menu-line"></div>
@@ -70,13 +78,18 @@
 
                 <nav class="menu">
                     <ul>
-                        <li class="menu-item"><a href="#">Home</a></li>
+                        <li class="menu-item"><a href="../main/index.html">Home</a></li>
                         <li class="menu-item"><a href="../about/index.html">About</a></li>
-                        <li class="menu-item"><a href="../services/services.html">Services</a></li>
-                        <li class="menu-item"><a href="../prices/prices.html">Prices</a></li>
-                        <li class="menu-item"><a href="../contacts/contacts.html">Contacts</a></li>
+                        <li class="menu-item"><a href="../services/services.html#services-section">Services</a></li>
+                        <li class="menu-item"><a href="../main/index.html#pricing-section">Prices</a></li>
+                        <li class="menu-item"><a href="#footer-section">Contacts</a></li>
                     </ul>
                     <a href="../order/order.html" class="order-btn__burger-link">
+                        <a href="../login/login.html">
+                            <button class="order-btn__burger">
+                                Login
+                            </button>
+                        </a>
                         <button class="order-btn__burger">Order delivery</button>
                     </a>
                 </nav>
@@ -86,44 +99,15 @@
     <div class="hero">
         <div class="wrapper">
             <div class="hero__wrapper">
-                <div class="hero-left__content">
-                    <h1 class="hero-title"><b>Your Lightning Fast Delivery Partner</b></h1>
-                    <p class="hero-text">The leader of the European market of express delivery company "Logistic".
-                        To date, "Logistic" - the leader of express delivery market in Europe. It delivers parcels
-                        and freight throughout the EU within a few days.</p>
-
-                    <div class="hero-stats__block">
-                        <ol class="hero-stats__items">
-                            <li class="hero-stats__item">
-                                <span class="hero-stats">100000</span>
-                                <br>
-                                <p>clients</p>
-                            </li>
-                            <li class="hero-stats__item">
-                                <span>1519</span>
-                                <br>
-                                <p>workers</p>
-                            </li>
-                            <li class="hero-stats__item">
-                                <span>2 days</span>
-                                <br>
-                                <p>average delivery time</p>
-                            </li>
-                            <li class="hero-stats__item">
-                                <span>100%</span>
-                                <br>
-                                <p>safety</p>
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-                <div class="hero-right__content">
-                    <img class="hero-img" src="../../source/images/hero-img.svg" alt="hero-img">
-                </div>
+                <h1 class="hero-title">Services</h1>
+                <p class="hero-text">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint
+                    voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi
+                    ratione sint. Sit quaerat ipsum dolorem.</p>
             </div>
         </div>
     </div>
 </div>
+
 
 <main>
     <section class="about-section" id="about-section">
@@ -149,7 +133,7 @@
                             <div class="about-list__content">
                                 <h4>Up to 1 kg</h4>
                                 <p>Express delivery of documents</p>
-                                <span><a href="#">Learn More</a></span>
+                                <span><a href="../services/details.html">Learn More</a></span>
                             </div>
                         </li>
                         <li class="about-info__list-item">
@@ -174,7 +158,7 @@
                             <div class="about-list__content">
                                 <h4>Up to 1000 kg</h4>
                                 <p>Delivery of cargo</p>
-                                <span><a href="#">Learn More</a></span>
+                                <span><a href="../services/details.html">Learn More</a></span>
                             </div>
                         </li>
                         <li class="about-info__list-item">
@@ -196,63 +180,15 @@
                             <div class="about-list__content">
                                 <h4>Up to 30 kg</h4>
                                 <p>Parcel delivery</p>
-                                <span><a href="#">Learn More</a></span>
+                                <span><a href="../services/details.html">Learn More</a></span>
                             </div>
                         </li>
                     </ul>
                 </div>
-                <div class="about-us__wrapper">
-                    <div class="about-us__left-content">
-                        <h3 class="about-us-title">About Us</h3>
-                        <p class="about-us-text">Our company is the leader of the European market of express delivery
-                            company "Logistic".
-                            Today "Logistiс" is the leader of the express delivery market in Europe. It delivers parcels
-                            and freight throughout the EU within a few days.</p>
-
-                        <div>
-                            <ul class="about-us__list">
-                                <li class="about-us__item">
-                                    <img class="about-us__item-icon"
-                                         src="../../source/images/icons/logistics-delivery-ultrathin-transport-svgrepo-com.svg"
-                                         alt="transport-icon">
-                                    <div class="about-us__item-content">
-                                        <h4 class="about-us__item-title">Fast delivery</h4>
-                                        <p class="about-us__item-text">We deliver your packages at the speed of
-                                            light</p>
-                                    </div>
-                                </li>
-                                <li class="about-us__item">
-                                    <img class="about-us__item-icon"
-                                         src="../../source/images/icons/logistics-ultrathin-crane-svgrepo-com.svg"
-                                         alt="logistic-icon">
-                                    <div class="about-us__item-content">
-                                        <h4 class="about-us__item-title">Reliable logistics</h4>
-                                        <p class="about-us__item-text">We've built a reliable logistics chain to deliver
-                                            your packages quickly and
-                                            safely</p>
-                                    </div>
-                                </li>
-                                <li class="about-us__item">
-                                    <img class="about-us__item-icon"
-                                         src="../../source/images/icons/logistics-call-center-woman-svgrepo-com.svg"
-                                         alt="Call-center-icon">
-                                    <div class="about-us__item-content">
-                                        <h4 class="about-us__item-title">24/7 Support</h4>
-                                        <p class="about-us__item-text">Our support is available 24 hours a day, 7 days a
-                                            week so you can get support
-                                            at any time</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="about-us__right-content">
-                        <img class="about-us__img" src="../../source/images/about.jpg" alt="about-img">
-                    </div>
-                </div>
             </div>
         </div>
     </section>
+
     <section class="services-section" id="services-section">
         <div class="wrapper">
             <div class="services__wrapper">
@@ -262,7 +198,7 @@
                     <ol class="services-row">
                         <!--                    1-->
                         <li class="services-row__card img-hover">
-                            <a href="../services/services.html">
+                            <a href="../services/details.html">
                                 <div class="services-row__card-img">
                                     <img src="../../source/images/storage-service.jpg" alt="storage-service">
                                 </div>
@@ -276,7 +212,7 @@
                         </li>
                         <!--                    2-->
                         <li class="services-row__card img-hover">
-                            <a href="../services/services.html">
+                            <a href="../services/details.html">
                                 <div class="services-row__card-img">
                                     <img src="../../source/images/logistics-service.jpg" alt="logistics-service">
                                 </div>
@@ -290,7 +226,7 @@
                         </li>
                         <!--                    3-->
                         <li class="services-row__card img-hover">
-                            <a href="../services/services.html">
+                            <a href="../services/details.html">
                                 <div class="services-row__card-img">
                                     <img src="../../source/images/cargo-service.jpg" alt="cargo-service">
                                 </div>
@@ -304,7 +240,7 @@
                         </li>
                         <!--                    4-->
                         <li class="services-row__card img-hover">
-                            <a href="../services/services.html">
+                            <a href="../services/details.html">
                                 <div class="services-row__card-img">
                                     <img src="../../source/images/trucking-service.jpg" alt="trucking-service">
                                 </div>
@@ -318,7 +254,7 @@
                         </li>
                         <!--                    5-->
                         <li class="services-row__card img-hover">
-                            <a href="../services/services.html">
+                            <a href="../services/details.html">
                                 <div class="services-row__card-img">
                                     <img src="../../source/images/packaging-service.jpg" alt="packaging-service">
                                 </div>
@@ -332,7 +268,7 @@
                         </li>
                         <!--                    6-->
                         <li class="services-row__card img-hover">
-                            <a href="../services/services.html">
+                            <a href="../services/details.html">
                                 <div class="services-row__card-img">
                                     <img src="../../source/images/warehousing-service.jpg" alt="warehousing-service">
                                 </div>
@@ -343,54 +279,6 @@
                                         elit. Aspernatur, commodi.</p>
                                 </div>
                             </a>
-                        </li>
-                    </ol>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="pricing-section" id="pricing-section">
-        <div class="wrapper">
-            <div class="pricing__wrapper">
-                <h2 class="title">Pricing</h2>
-
-                <div>
-                    <ol class="pricing__items-list">
-                        <li class="pricing-item">
-                            <h3>Low-cost</h3>
-                            <h4>9$ <span>/ for delivery</span></h4>
-                            <ul class="pricing-item__inner-list low-cost__list">
-                                <li><p>Package up to 1kg</p></li>
-                                <li>Delivery time 1 - 2 days</li>
-                                <li>Storage time - 3 days</li>
-                                <li>Home delivery</li>
-                                <li>Branded parcel packaging</li>
-                            </ul>
-                            <button class="pricing-btn"><a href="../order/order.html">Buy Now</a></button>
-                        </li>
-                        <li class="pricing-item">
-                            <h3>Medium</h3>
-                            <h4>29$ <span>/ for delivery</span></h4>
-                            <ul class="pricing-item__inner-list medium-cost__list">
-                                <li>Package up to 30kg</li>
-                                <li>Delivery time 1 - 2 days</li>
-                                <li>Storage time - 7 days</li>
-                                <li>Home delivery</li>
-                                <li>Branded parcel packaging</li>
-                            </ul>
-                            <button class="pricing-btn"><a href="../order/order.html">Buy Now</a></button>
-                        </li>
-                        <li class="pricing-item">
-                            <h3>Luxury</h3>
-                            <h4>49$ <span>/ for delivery</span></h4>
-                            <ul class="pricing-item__inner-list luxury-cost__list">
-                                <li>Package up to 1000kg</li>
-                                <li>Delivery time 1 - 2 days</li>
-                                <li>Storage time - 30 days</li>
-                                <li>Home delivery</li>
-                                <li>Branded parcel packaging</li>
-                            </ul>
-                            <button class="pricing-btn"><a href="../order/order.html">Buy Now</a></button>
                         </li>
                     </ol>
                 </div>
@@ -443,8 +331,8 @@
                     <h5 class="useful-links-title">Useful Links</h5>
                     <ul class="useful-links__list">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#about-section">About</a></li>
-                        <li><a href="#services-section">Services</a></li>
+                        <li><a href="../about/index.html">About</a></li>
+                        <li><a href="../services/services.html#services-section">Services</a></li>
                         <li><a href="#pricing-section">Prices</a></li>
                         <li><a href="#footer-section">Contacts</a></li>
                     </ul>
@@ -468,6 +356,6 @@
     </div>
 </footer>
 
-<script src="script.js"></script>
+<!--<script src="script.js"></script>-->
 </body>
 </html>
