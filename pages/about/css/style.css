@@ -402,7 +402,7 @@ body {
 }
 
 .about-us__left-content {
-    width: 480px;
+    max-width: 480px;
 }
 
 
@@ -587,3 +587,33 @@ body {
     gap: 50px;
 }
 /*footer end*/
+
+
+@media (max-width: 768px) {
+    .wrapper {
+        max-width: 540px;
+    }
+    .footer__wrapper {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .wrapper__first-content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+    }
+    .footer-logo-text {
+        margin: 0 auto;
+    }
+    .social__list {
+        display: flex;
+        justify-content: center;
+    }
+    .wrapper__second-content {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

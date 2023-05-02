@@ -315,6 +315,10 @@ body {
     display: flex;
     justify-content: space-between;
 }
+.wrapper__second-content {
+    display: flex;
+    gap: 50px;
+}
 .footer-logo-name {
     font-size: 30px;
     font-weight: 700;
