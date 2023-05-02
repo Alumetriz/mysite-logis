@@ -5,26 +5,23 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <link rel="stylesheet" href="css/style.css">
-
     <!--    fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,400&display=swap"
           rel="stylesheet">
     <!--    fonts-->
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Logistic</title>
 </head>
 <body>
-
 <div class="header-and-hero__wrapper bg-image">
     <header class="header">
         <div class="wrapper">
             <div class="header__wrapper">
                 <div class="header__logo">
-                    <a href="../main/index.html">
+                    <a href="../../main/index.html">
                         <object>
                             <svg version="1.1" id="_x32_"
                                  xmlns="http://www.w3.org/2000/svg"
@@ -50,21 +47,21 @@
                 <div class="header__navigation-wrapper">
                     <nav class="header__nav">
                         <ul class="header__nav-items">
-                            <li class="active"><a href="../main/index.html">Home</a></li>
-                            <li><a href="../about/index.html">About</a></li>
-                            <li><a href="../services/services.html">Services</a></li>
-                            <li><a href="../prices/prices.html">Prices</a></li>
-                            <li><a href="../contacts/contacts.html">Contacts</a></li>
+                            <li><a href="../../main/index.html">Home</a></li>
+                            <li><a href="../../about/index.html">About</a></li>
+                            <li><a href="../../services/services.html">Services</a></li>
+                            <li><a href="../../prices/prices.html">Prices</a></li>
+                            <li><a href="../../contacts/contacts.html">Contacts</a></li>
                         </ul>
                     </nav>
                 </div>
                 <div>
-                    <a href="../registration/registration.html">
-                        <button class="order-btn">
-                            Login
-                        </button>
-                    </a>
-                    <a href="../order/order.html">
+                    <!--                    <a href="../registration/registration.html">-->
+                    <!--                        <button class="order-btn">-->
+                    <!--                            Login-->
+                    <!--                        </button>-->
+                    <!--                    </a>-->
+                    <a href="../../order/order.html">
                         <button class="order-btn">
                             Order delivery
                         </button>
@@ -80,18 +77,18 @@
 
                 <nav class="menu">
                     <ul>
-                        <li class="menu-item"><a href="../main/index.html">Home</a></li>
-                        <li class="menu-item"><a href="../about/index.html">About</a></li>
-                        <li class="menu-item"><a href="../services/services.html">Services</a></li>
-                        <li class="menu-item"><a href="../prices/prices.html">Prices</a></li>
-                        <li class="menu-item"><a href="../contacts/contacts.html">Contacts</a></li>
+                        <li class="menu-item"><a href="../../main/index.html">Home</a></li>
+                        <li class="menu-item"><a href="../../about/index.html">About</a></li>
+                        <li class="menu-item"><a href="../../services/services.html">Services</a></li>
+                        <li class="menu-item"><a href="../../prices/prices.html">Prices</a></li>
+                        <li class="menu-item"><a href="../../contacts/contacts.html">Contacts</a></li>
                     </ul>
-                    <a href="../order/order.html" class="order-btn__burger-link">
-                        <a href="../registration/registration.html">
-                            <button class="order-btn__burger">
-                                Login
-                            </button>
-                        </a>
+                    <!--                    <a href="../registration/registration.html">-->
+                    <!--                        <button class="order-btn__burger">-->
+                    <!--                            Login-->
+                    <!--                        </button>-->
+                    <!--                    </a>-->
+                    <a href="../../order/order.html" class="order-btn__burger-link">
                         <button class="order-btn__burger">Order delivery</button>
                     </a>
                 </nav>
@@ -101,53 +98,39 @@
     <div class="hero">
         <div class="wrapper">
             <div class="hero__wrapper">
-                <h1 class="hero-title">Get a Order</h1>
-                <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur error, in
-                    itaque labore sed soluta?</p>
+                <h1 class="hero-title">Login</h1>
+                <p class="hero-text">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint
+                    voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi
+                    ratione sint. Sit quaerat ipsum dolorem.</p>
             </div>
         </div>
     </div>
 </div>
-<main class="order">
-    <div class="wrapper">
-        <div class="order__wrapper">
-            <div class="order__content-left">
-                <!--                <img src="../../source/images/quote-bg.jpg" alt="order">-->
-            </div>
-            <div class="order__content-right">
 
-                <div class="form-item">
-                    <h5 class="form-title">Куда доставлять заказ ?</h5>
-                    <form action="#" method="post">
-                        <label for="name">Имя:</label>
-                        <input type="text" id="name" name="name" placeholder="Name" required>
-                        <label for="email">Электронная почта:</label>
-                        <input type="email" id="email" name="email" placeholder="Email" required>
-                        <label for="phone">Телефон:</label>
-                        <input type="tel" id="phone" name="phone" placeholder="Phone" required>
-                        <label for="message">Сообщение:</label>
-                        <textarea id="message" name="message" placeholder="Where to deliver" required></textarea>
+<main>
+    <section class="login-section" id="registration-section">
+        <div class="wrapper">
+            <div class="login__wrapper">
+                <form class="login-form" action="#" method="get">
+                    <input type="email" id="email" placeholder="email@example.com" name="email" required>
+                    <input type="password" placeholder="Password" id="pass" name="pass" required>
 
-                        <label for="payment">Выберите способ оплаты:</label>
-                        <select id="payment" name="payment">
-                            <option value="card">Кредитная карта</option>
-                            <option value="paypal">PayPal</option>
-                            <option value="bitcoin">Bitcoin</option>
-                        </select>
-
-                        <button class="form-btn" type="submit">Отправить</button>
-                    </form>
-
-                    <form action="#" method="post">
-                        <label for="terms" class="terms">Я согласен с <a href="#">условиями использования</a>:</label>
-                        <input type="checkbox" class="terms" id="terms" name="terms" required>
-
-                        <input type="submit" value="Подтвердить согласие">
-                    </form>
+                    <div class="form__btns-wrapper">
+                        <button class="form-btn submit-btn" type="submit">Login</button>
+                        <button class="form-btn reset-btn" type="reset">Clear</button>
+                    </div>
+                </form>
+                <div class="login__btn-wrapper">
+                    <p>don't have an account?</p>
+                    <a href="../../registration/registration.html">
+                        <button class="login-btn">
+                            Register
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </main>
 
 <footer class="footer" id="footer-section">
@@ -162,27 +145,27 @@
                     <ol class="social__list">
                         <li>
                             <a href="#">
-                                <img src="../../source/images/icons/icons8-facebook.svg" alt="Facebook">
+                                <img src="../../../source/images/icons/icons8-facebook.svg" alt="Facebook">
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="../../source/images/icons/icons8-instagram.svg" alt="Instagram">
+                                <img src="../../../source/images/icons/icons8-instagram.svg" alt="Instagram">
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="../../source/images/icons/icons8-telegram-app.svg" alt="Telegram">
+                                <img src="../../../source/images/icons/icons8-telegram-app.svg" alt="Telegram">
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="../../source/images/icons/icons8-twitter.svg" alt="Twitter">
+                                <img src="../../../source/images/icons/icons8-twitter.svg" alt="Twitter">
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="../../source/images/icons/icons8-github.svg" alt="Github">
+                                <img src="../../../source/images/icons/icons8-github.svg" alt="Github">
                             </a>
                         </li>
                     </ol>
@@ -193,11 +176,11 @@
                 <div>
                     <h5 class="useful-links-title">Useful Links</h5>
                     <ul class="useful-links__list">
-                        <li><a href="../main/index.html">Home</a></li>
-                        <li><a href="../about/index.html">About</a></li>
-                        <li><a href="../services/services.html">Services</a></li>
-                        <li><a href="../prices/prices.html">Prices</a></li>
-                        <li><a href="../contacts/contacts.html">Contacts</a></li>
+                        <li><a href="../../main/index.html">Home</a></li>
+                        <li><a href="../../about/index.html">About</a></li>
+                        <li><a href="../../services/services.html">Services</a></li>
+                        <li><a href="../../prices/prices.html">Prices</a></li>
+                        <li><a href="../../contacts/contacts.html">Contacts</a></li>
                     </ul>
                 </div>
 
@@ -214,7 +197,7 @@
         <div class="copyright">
             <p>© Максим Перепелица</p>
             <p>ИПЗ-22-1</p>
-            <p><a href="../cv/resume.html" style="color: #ffffff">CV</a></p>
+            <p><a href="../../cv/resume.html" style="color: #ffffff">CV</a></p>
         </div>
     </div>
 </footer>

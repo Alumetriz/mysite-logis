@@ -102,5 +102,5 @@ export class BurgerMenu {
     }
 }
 
-// const burgerMenu = new BurgerMenu();
+const burgerMenu = new BurgerMenu();
 
