@@ -48,10 +48,6 @@ body {
     fill: white;
 }
 
-.header__navigation-wrapper {
-    width: 600px;
-}
-
 .header__nav-items {
     display: flex;
     justify-content: space-between;
@@ -259,7 +255,7 @@ body {
     background-size: cover;
 }
 .form-item {
-    width: 400px;
+    max-width: 400px;
 }
 .form-item form {
     display: flex;
@@ -314,6 +310,10 @@ body {
 .footer__wrapper {
     display: flex;
     justify-content: space-between;
+}
+.wrapper__second-content {
+    display: flex;
+    gap: 50px;
 }
 .footer-logo-name {
     font-size: 30px;

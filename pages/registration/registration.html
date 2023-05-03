@@ -50,17 +50,17 @@
                             <li><a href="../main/index.html">Home</a></li>
                             <li><a href="../about/index.html">About us</a></li>
                             <li><a href="../services/services.html">Services</a></li>
-                            <li class="active"><a href="#pricing-section">Prices</a></li>
+                            <li><a href="../prices/prices.html">Prices</a></li>
                             <li><a href="../contacts/contacts.html">Contacts</a></li>
                         </ul>
                     </nav>
                 </div>
                 <div>
-                    <a href="../registration/registration.html">
-                        <button class="order-btn">
-                            Login
-                        </button>
-                    </a>
+                    <!--                    <a href="../registration/registration.html">-->
+                    <!--                        <button class="order-btn">-->
+                    <!--                            Login-->
+                    <!--                        </button>-->
+                    <!--                    </a>-->
                     <a href="../order/order.html">
                         <button class="order-btn">
                             Order delivery
@@ -80,14 +80,14 @@
                         <li class="menu-item"><a href="../main/index.html">Home</a></li>
                         <li class="menu-item"><a href="../about/index.html">About us</a></li>
                         <li class="menu-item"><a href="../services/services.html">Services</a></li>
-                        <li class="menu-item"><a href="#pricing-section">Prices</a></li>
+                        <li class="menu-item"><a href="../prices/prices.html">Prices</a></li>
                         <li class="menu-item"><a href="../contacts/contacts.html">Contacts</a></li>
                     </ul>
-                        <a href="../registration/registration.html">
-                            <button class="order-btn__burger">
-                                Login
-                            </button>
-                        </a>
+                    <!--                    <a href="../registration/registration.html">-->
+                    <!--                        <button class="order-btn__burger">-->
+                    <!--                            Login-->
+                    <!--                        </button>-->
+                    <!--                    </a>-->
                     <a href="../order/order.html" class="order-btn__burger-link">
                         <button class="order-btn__burger">Order delivery</button>
                     </a>
@@ -98,7 +98,7 @@
     <div class="hero">
         <div class="wrapper">
             <div class="hero__wrapper">
-                <h1 class="hero-title">Pricing</h1>
+                <h1 class="hero-title">Registration</h1>
                 <p class="hero-text">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint
                     voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi
                     ratione sint. Sit quaerat ipsum dolorem.</p>
@@ -108,62 +108,28 @@
 </div>
 
 <main>
-    <section class="pricing-section" id="pricing-section">
+    <section class="registration-section" id="registration-section">
         <div class="wrapper">
-            <div class="pricing__wrapper">
-                <h2 class="pricing-title">Pricing</h2>
+            <div class="registration__wrapper">
+                <form class="registr-form" action="#" method="get">
+                    <input type="text" placeholder="Name" id="name" name="name" required>
+                    <input type="text" id="surname" placeholder="Surname" name="surname" required>
+                    <input type="email" id="email" placeholder="email@example.com" name="email" required>
+                    <input type="password" placeholder="Password" id="pass" name="pass" required>
+                    <input type="password" placeholder="Confirm password" id="pass-confirm" name="pass-confirm">
 
-                <div>
-                    <ol class="pricing__items-list">
-                        <li class="pricing-item">
-                            <h3>Low-cost</h3>
-                            <h4>9$ <span>/ for delivery</span></h4>
-                            <ul class="pricing-item__inner-list low-cost__list">
-                                <li><p>Package up to 1kg</p></li>
-                                <li>Delivery time 1 - 2 days</li>
-                                <li>Storage time - 3 days</li>
-                                <li>Home delivery</li>
-                                <li>Branded parcel packaging</li>
-                            </ul>
-                            <div class="pricing-btn__wrapper">
-                                <a class="pricing-btn" href="../order/order.html">
-                                    <button>Buy Now</button>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="pricing-item">
-                            <h3>Medium</h3>
-                            <h4>29$ <span>/ for delivery</span></h4>
-                            <ul class="pricing-item__inner-list medium-cost__list">
-                                <li>Package up to 30kg</li>
-                                <li>Delivery time 1 - 2 days</li>
-                                <li>Storage time - 7 days</li>
-                                <li>Home delivery</li>
-                                <li>Branded parcel packaging</li>
-                            </ul>
-                            <div class="pricing-btn__wrapper">
-                                <a class="pricing-btn" href="../order/order.html">
-                                    <button>Buy Now</button>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="pricing-item">
-                            <h3>Luxury</h3>
-                            <h4>49$ <span>/ for delivery</span></h4>
-                            <ul class="pricing-item__inner-list luxury-cost__list">
-                                <li>Package up to 1000kg</li>
-                                <li>Delivery time 1 - 2 days</li>
-                                <li>Storage time - 30 days</li>
-                                <li>Home delivery</li>
-                                <li>Branded parcel packaging</li>
-                            </ul>
-                            <div class="pricing-btn__wrapper">
-                                <a class="pricing-btn" href="../order/order.html">
-                                    <button>Buy Now</button>
-                                </a>
-                            </div>
-                        </li>
-                    </ol>
+                    <div class="form__btns-wrapper">
+                        <button class="form-btn submit-btn" type="submit">Register</button>
+                        <button class="form-btn reset-btn" type="reset">Clear</button>
+                    </div>
+                </form>
+                <div class="registration__btn-wrapper">
+                    <p>already have an account?</p>
+                    <a href="../registration/login/login.html">
+                        <button class="login-btn">
+                            Login
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -216,7 +182,7 @@
                         <li><a href="../main/index.html">Home</a></li>
                         <li><a href="../about/index.html">About us</a></li>
                         <li><a href="../services/services.html">Services</a></li>
-                        <li><a href="#pricing-section">Prices</a></li>
+                        <li><a href="../prices/prices.html">Prices</a></li>
                         <li><a href="../contacts/contacts.html">Contacts</a></li>
                         <li><a href="../sitemap/sitemap.html">Site map</a></li>
                     </ul>

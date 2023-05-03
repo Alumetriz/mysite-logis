@@ -57,8 +57,6 @@ body {
     fill: white;
 }
 
-
-
 .header__nav-items {
     display: flex;
     justify-content: space-between;
@@ -300,10 +298,17 @@ body {
 }
 
 /*HERO START*/
-.contacts-section {
+
+.sitemap-section {
     padding: 80px 0;
 }
-.contacts-title {
+.sitemap__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
     font-size: 32px;
     font-weight: 700;
     text-transform: uppercase;
@@ -312,7 +317,7 @@ body {
     color: #001973;
     text-align: center;
 }
-.contacts-title::after {
+.title::after {
     content: "";
     display: block;
     width: 50px;
@@ -322,92 +327,18 @@ body {
     margin: 0 auto;
 }
 
-.content-wrapper {
+.site-structure {
     display: flex;
-    justify-content: center;
-    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
 }
-@media screen and (max-width: 600px){
-    .content-wrapper {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-.contacts-list li {
-    font-family: Arial, sans-serif;
-    font-weight: 400;
+.site-structure li a {
     color: #0e1d34;
-    margin: 0 0 40px 0;
-}
-.contacts-list span {
-    font-weight: 700;
-}
-
-/*.contact-form {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*}*/
-
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    max-width: 600px;
-    width: 100%;
-}
-.contact-form input {
-    height: 50px;
-    font-family: Arial, sans-serif;
-
     font-size: 17px;
-    text-align: center;
-    background-color: rgba(145, 169, 255, 0.3);
-    border: none;
-    border-radius: 20px;
 }
-.contact-form textarea {
-    height: 150px;
-    font-family: Arial, sans-serif;
-    font-size: 17px;
-    text-align: center;
-    background-color: rgba(145, 169, 255, 0.3);
-    border: 1px solid #19335c;
-}
-
-@media screen and (max-width: 600px){
-    .contact-form {
-        align-items: center;
-    }
-    .contacts-list {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 30px;
-    }
-}
-
-.contacts-btn__wrapper {
-    max-width: 220px;
-    display: flex;
-}
-.contacts-btn button {
-    display: block;
-    margin: 40px auto 0 auto;
-    cursor: pointer;
-    border: 1px solid #0d42ff;
-    border-radius: 5px;
-    padding: 12px 35px;
-    background: transparent;
-    transition: 0.3s;
-}
-.contacts-btn button {
+.site-structure li a:hover {
     color: #0d42ff;
-    font-weight: 700;
-    font-size: 17px;
-    transition: 0.3s;
-}
-.contacts-btn button:hover {
-    background: #0d42ff;
-    color: #fff;
 }
 
 /*footer start*/

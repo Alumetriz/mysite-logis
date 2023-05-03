@@ -57,8 +57,6 @@ body {
     fill: white;
 }
 
-
-
 .header__nav-items {
     display: flex;
     justify-content: space-between;
@@ -300,62 +298,26 @@ body {
 }
 
 /*HERO START*/
-.contacts-section {
+
+.login-section {
     padding: 80px 0;
 }
-.contacts-title {
-    font-size: 32px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 40px;
-    padding-bottom: 0;
-    color: #001973;
-    text-align: center;
-}
-.contacts-title::after {
-    content: "";
-    display: block;
-    width: 50px;
-    height: 3px;
-    background: #001973;
-    text-align: center;
-    margin: 0 auto;
-}
 
-.content-wrapper {
+.login__wrapper {
     display: flex;
-    justify-content: center;
-    gap: 50px;
-}
-@media screen and (max-width: 600px){
-    .content-wrapper {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-.contacts-list li {
-    font-family: Arial, sans-serif;
-    font-weight: 400;
-    color: #0e1d34;
-    margin: 0 0 40px 0;
-}
-.contacts-list span {
-    font-weight: 700;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
 }
 
-/*.contact-form {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*}*/
-
-.contact-form {
+.login-form {
     display: flex;
     flex-direction: column;
     gap: 25px;
     max-width: 600px;
     width: 100%;
 }
-.contact-form input {
+.login-form input {
     height: 50px;
     font-family: Arial, sans-serif;
 
@@ -365,50 +327,43 @@ body {
     border: none;
     border-radius: 20px;
 }
-.contact-form textarea {
-    height: 150px;
-    font-family: Arial, sans-serif;
-    font-size: 17px;
-    text-align: center;
-    background-color: rgba(145, 169, 255, 0.3);
-    border: 1px solid #19335c;
-}
-
-@media screen and (max-width: 600px){
-    .contact-form {
-        align-items: center;
-    }
-    .contacts-list {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 30px;
-    }
-}
-
-.contacts-btn__wrapper {
-    max-width: 220px;
+.form__btns-wrapper {
     display: flex;
+    justify-content: center;
+    gap: 40px;
 }
-.contacts-btn button {
-    display: block;
-    margin: 40px auto 0 auto;
-    cursor: pointer;
-    border: 1px solid #0d42ff;
-    border-radius: 5px;
-    padding: 12px 35px;
-    background: transparent;
-    transition: 0.3s;
-}
-.contacts-btn button {
-    color: #0d42ff;
+.form-btn {
+    background-color: #0d42ff;
+    color: white;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-size: 17px;
-    transition: 0.3s;
+    height: 60px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
 }
-.contacts-btn button:hover {
-    background: #0d42ff;
-    color: #fff;
+.login__btn-wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
+.login-btn {
+    background-color: #0d42ff;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    height: 60px;
+    width: 80px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
 
 /*footer start*/
 
