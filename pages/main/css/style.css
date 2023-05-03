@@ -72,10 +72,6 @@ body {
     fill: white;
 }
 
-.header__navigation-wrapper {
-    width: 600px;
-}
-
 .header__nav-items {
     display: flex;
     justify-content: space-between;

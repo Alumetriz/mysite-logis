@@ -299,71 +299,47 @@ body {
 
 /*HERO START*/
 
-.login-section {
+.sitemap-section {
     padding: 80px 0;
 }
-
-.login__wrapper {
+.sitemap__wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
 }
 
-.login-form {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    max-width: 600px;
-    width: 100%;
-}
-.login-form input {
-    height: 50px;
-    font-family: Arial, sans-serif;
-
-    font-size: 17px;
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    padding-bottom: 0;
+    color: #001973;
     text-align: center;
-    background-color: rgba(145, 169, 255, 0.3);
-    border: none;
-    border-radius: 20px;
 }
-.form__btns-wrapper {
+.title::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #001973;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.site-structure {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 40px;
 }
-.form-btn {
-    background-color: #0d42ff;
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    height: 60px;
-    width: 150px;
-    border: none;
-    border-radius: 20px;
+.site-structure li a {
+    color: #0e1d34;
+    font-size: 17px;
 }
-.login__btn-wrapper {
-    display: flex;
-    gap: 20px;
-    align-items: center;
+.site-structure li a:hover {
+    color: #0d42ff;
 }
-.login-btn {
-    background-color: #0d42ff;
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    height: 60px;
-    width: 80px;
-    border: none;
-    border-radius: 20px;
-}
-
-
-
-
-
-
-
 
 /*footer start*/
 
