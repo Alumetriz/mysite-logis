@@ -172,7 +172,11 @@ body {
     z-index: 100;
     transition: right 0.3s ease; /* добавляем эффект плавного перемещения */
 }
-
+@media screen and (max-width: 500px) {
+    .menu {
+        width: 100%;
+    }
+}
 .menu.active {
     display: block;
 }
