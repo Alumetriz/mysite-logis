@@ -819,3 +819,9 @@ body {
         width: 370px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .hero-left__content {
+        max-width: 320px;
+    }
+}

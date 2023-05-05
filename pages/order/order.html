@@ -121,7 +121,7 @@
 
                 <div class="form-item">
                     <h5 class="form-title">Куда доставлять заказ ?</h5>
-                    <form action="#" method="post">
+                    <form action="#" method="get">
                         <label for="name">Имя:</label>
                         <input type="text" id="name" name="name" placeholder="Name" required>
                         <label for="email">Электронная почта:</label>
@@ -138,14 +138,12 @@
                             <option value="bitcoin">Bitcoin</option>
                         </select>
 
+                        <div class="terms-wrapper">
+                            <label for="terms" class="terms">Я согласен с <a href="#">условиями
+                                использования</a>:</label>
+                            <input type="checkbox" class="terms" id="terms" name="terms" required>
+                        </div>
                         <button class="form-btn" type="submit">Отправить</button>
-                    </form>
-
-                    <form action="#" method="post">
-                        <label for="terms" class="terms">Я согласен с <a href="#">условиями использования</a>:</label>
-                        <input type="checkbox" class="terms" id="terms" name="terms" required>
-
-                        <input type="submit" value="Подтвердить согласие">
                     </form>
                 </div>
             </div>
