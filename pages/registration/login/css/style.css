@@ -160,19 +160,22 @@ body {
     }
 }
 
-/* Стили для выпадающего меню */
 .menu {
     display: none;
     position: fixed;
     top: 0;
-    right: 0; /* начальное положение за пределами экрана */
+    right: 0;
     width: 50%;
     height: 100%;
     background-color: #0e1d34;
     z-index: 100;
-    transition: right 0.3s ease; /* добавляем эффект плавного перемещения */
+    transition: right 0.3s ease;
 }
-
+@media screen and (max-width: 500px) {
+    .menu {
+        width: 100%;
+    }
+}
 .menu.active {
     display: block;
 }
@@ -333,14 +336,21 @@ body {
     gap: 40px;
 }
 .form-btn {
-    background-color: #0d42ff;
-    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    color: #0d42ff;
+    font-size: 16px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     height: 60px;
     width: 150px;
-    border: none;
+    border: 2px solid #0d42ff;
     border-radius: 20px;
+    transition: all .3s;
+}
+.form-btn:hover {
+    background-color: #0d42ff;
+    color: #fff;
 }
 .login__btn-wrapper {
     display: flex;
@@ -348,14 +358,20 @@ body {
     align-items: center;
 }
 .login-btn {
-    background-color: #0d42ff;
-    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    color: #0d42ff;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     height: 60px;
     width: 80px;
-    border: none;
+    border: 1px solid #0d42ff;
     border-radius: 20px;
+    transition: all .3s;
+}
+.login-btn:hover {
+    background-color: #0d42ff;
+    color: #fff;
 }
 
 
