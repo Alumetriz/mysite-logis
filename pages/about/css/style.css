@@ -160,17 +160,16 @@ body {
     }
 }
 
-/* Стили для выпадающего меню */
 .menu {
     display: none;
     position: fixed;
     top: 0;
-    right: 0; /* начальное положение за пределами экрана */
+    right: 0;
     width: 50%;
     height: 100%;
     background-color: #0e1d34;
     z-index: 100;
-    transition: right 0.3s ease; /* добавляем эффект плавного перемещения */
+    transition: right 0.3s ease;
 }
 @media screen and (max-width: 500px) {
     .menu {
