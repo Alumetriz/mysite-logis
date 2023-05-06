@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description"
           content="The leader of the European market of express delivery company &quot;Logistic&quot;. To date, &quot;Logistic&quot; - the leader of express delivery market in Europe.">
-    <meta name="keywords" content="order delivery, delivery, logistics, mail, cargo, trucking, warehousing, packaging, storage">
+    <meta name="keywords"
+          content="order delivery, delivery, logistics, mail, cargo, trucking, warehousing, packaging, storage">
 
     <link rel="stylesheet" href="css/style.css">
 
@@ -62,7 +63,7 @@
                     </nav>
                 </div>
                 <div>
-                    <a href="../registration/registration.html">
+                    <a href="../registration/login/login.html">
                         <button class="order-btn">
                             Login
                         </button>
@@ -90,7 +91,7 @@
                         <li class="menu-item"><a href="../contacts/contacts.html">Contacts</a></li>
                     </ul>
                     <a href="../order/order.html" class="order-btn__burger-link">
-                        <a href="../registration/registration.html">
+                        <a href="../registration/login/login.html">
                             <button class="order-btn__burger">
                                 Login
                             </button>
@@ -115,35 +116,34 @@
     <div class="wrapper">
         <div class="order__wrapper">
             <div class="order__content-left">
-                <!--                <img src="../../source/images/quote-bg.jpg" alt="order">-->
             </div>
             <div class="order__content-right">
 
                 <div class="form-item">
-                    <h5 class="form-title">Куда доставлять заказ ?</h5>
+                    <h5 class="form-title">Where to deliver the order ?</h5>
                     <form action="#" method="get">
-                        <label for="name">Имя:</label>
+                        <label for="name">Name:</label>
                         <input type="text" id="name" name="name" placeholder="Name" required>
-                        <label for="email">Электронная почта:</label>
+                        <label for="email">Email:</label>
                         <input type="email" id="email" name="email" placeholder="Email" required>
-                        <label for="phone">Телефон:</label>
+                        <label for="phone">Phone:</label>
                         <input type="tel" id="phone" name="phone" placeholder="Phone" required>
-                        <label for="message">Сообщение:</label>
+                        <label for="message">Message:</label>
                         <textarea id="message" name="message" placeholder="Where to deliver" required></textarea>
 
-                        <label for="payment">Выберите способ оплаты:</label>
+                        <label for="payment">Select a payment method:</label>
                         <select id="payment" name="payment">
-                            <option value="card">Кредитная карта</option>
+                            <option value="card">Credit Card</option>
                             <option value="paypal">PayPal</option>
                             <option value="bitcoin">Bitcoin</option>
                         </select>
 
                         <div class="terms-wrapper">
-                            <label for="terms" class="terms">Я согласен с <a href="#">условиями
-                                использования</a>:</label>
+                            <label for="terms" class="terms">I agree with <a id="terms-link" href="../order/terms/terms.html" target="_blank">terms and conditions of
+                                use</a>:</label>
                             <input type="checkbox" class="terms" id="terms" name="terms" required>
                         </div>
-                        <button class="form-btn" type="submit">Отправить</button>
+                        <button class="form-btn" type="submit">Send</button>
                     </form>
                 </div>
             </div>
