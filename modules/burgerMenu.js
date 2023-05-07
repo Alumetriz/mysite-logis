@@ -1,5 +1,3 @@
-'use strict';
-
 class BurgerMenu {
     constructor() {
         this.burgerMenu = document.querySelector('.burger-menu');
